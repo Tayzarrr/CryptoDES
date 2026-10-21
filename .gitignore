@@ -1,0 +1,18 @@
+# Lingkungan Python dan cache.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Berkas hasil lokal; folder tetap tersedia.
+output/*
+!output/.gitkeep
+# Kunci pengguna dan konfigurasi lokal.
+kunci*.txt
+*.key
+.env
+# Berkas editor dan sistem operasi.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
