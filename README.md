@@ -358,31 +358,6 @@ Fokus pada aplikasi, format data, proses file, dan antarmuka pengguna.
 
 ---
 
-## 🤝 Workflow Kolaborasi GitHub
-
-Workflow yang direkomendasikan:
-
-```text
-Andika
-  │
-  ├─ membuat repository
-  ├─ push Cryptography Core
-  ▼
-GitHub Repository
-  ▲
-  │
-Rafael
-  ├─ clone repository
-  ├─ membuat branch kontribusi
-  ├─ menambahkan Application + GUI
-  ├─ push branch
-  └─ Pull Request → Merge
-```
-
-Dengan cara ini, **riwayat commit GitHub menunjukkan kontribusi masing-masing anggota secara jelas**.
-
----
-
 ## 🛡️ Catatan Keamanan
 
 Proyek ini memperlihatkan bagaimana DES/3DES bekerja secara internal, tetapi **jangan gunakan DES atau 3DES untuk melindungi data sensitif pada aplikasi produksi baru**.
@@ -391,26 +366,9 @@ Untuk aplikasi modern, pertimbangkan algoritma seperti **AES** dengan mode authe
 
 ---
 
-## 🎯 Tujuan Pembelajaran
-
-Setelah mempelajari project ini, pengguna diharapkan dapat memahami:
-
-- Struktur dasar block cipher
-- Cara kerja jaringan Feistel
-- Key schedule DES
-- Peran permutation dan S-Box
-- Perbedaan DES dan Triple DES
-- Perbedaan ECB dan CBC
-- Fungsi IV dan padding
-- Perbedaan implementasi manual dan library
-- Cara memverifikasi algoritma kriptografi dengan reference implementation
-- Cara membangun GUI kriptografi modular menggunakan Python
-
----
-
 <div align="center">
 
-### 🔐 ZarCryptoDES
+### CryptoDES
 **Learn the cipher. Trace the rounds. Verify the result.**
 
 Made for cryptography learning & experimentation.
