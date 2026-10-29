@@ -1,7 +1,7 @@
 <div align="center">
   <img src="docs/logo.png" alt="ZarCryptoDES Logo" width="150" />
 
-# 🔐 ZarCryptoDES
+# CryptoDES
 
 ### DES & Triple DES Learning Suite — Manual vs Library
 
